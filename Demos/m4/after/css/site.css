@@ -1,0 +1,225 @@
+
+
+
+/* html, body, div, span {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px; 
+  line-height: 20px;
+}
+
+a {
+  text-decoration: unset;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 10px 5px 10px 5px;
+  margin: 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header .logo {
+  display: inline;
+  font-size: 24px;
+  line-height: 30px;
+}
+header nav {
+  float: right;
+  margin-top: -14px;
+  line-height: 16px;
+  font-size: 16px;
+}
+header nav ul li {
+  list-style-type: none;
+  float: left;
+}
+
+header nav ul li::after {
+  content: "|";
+  padding: 0 3px;
+}
+
+header nav ul li:last-child::after {
+  content: "";
+}
+
+hr {
+  margin: 25px 0;
+  border: 0.05rem dotted #eee;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+#container {
+  width: 989px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main {
+  width: 755px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 2px;
+  margin: 0 1px 0 0;
+  font-size: 18px; 
+  line-height: 24px;
+}
+
+#sidebar {
+  width: 220px;
+  background-color: rgb(255, 253, 234);
+  display: inline-block;
+  vertical-align: top;
+  padding: 2px;
+  margin: 0;
+}
+
+#sidebar .images img {
+  max-width: 200px;
+  border: solid 1px #444;
+  margin: 2px;
+
+}
+
+footer {
+  background-color: #ccc;
+  border-top: solid 1px black;
+}
+
+.centered {
+  text-align: center;
+}
+
+.img {
+  margin: 2px 4px;
+  padding: 1px;
+}
+
+.img-small {
+  width: 35%;
+}
+
+.img-rounded {
+  border: 1px solid #888;
+  border-radius: 5px;
+}
+
+.contact {
+  margin-left: 150px;
+  width: 500px;
+  padding: 15px;
+  display: inline-block;
+  border: groove 2px #eee;
+  border-radius: 5px;
+}
+
+.contact form input, select, textarea {
+  width: 400px;
+  font-size: 20px;
+  margin-bottom: 2px;
+  
+}
+
+.contact form input[type=submit], .contact form input[type=checkbox]
+{
+  width: auto;
+}
+
+.contact form label {
+  width: 80px;
+  display: inline-block;
+}
+
+.story {
+  border-bottom: 3px #ccc groove;
+  padding: 4px default;
+  margin: 8px default;
+}
+
+.story img.pull-right {
+  max-width: 30%;
+  float: right;
+}
+
+#lead {
+  border: black 1px solid;
+  padding: 8px;
+  background-color: #ccc;
+}
+
+#lead h1 {
+  font-size: 40px;
+  text-align: center !important;
+}
+
+#lead p {
+  font-size: 24px;
+  text-align: center;
+  line-height: 36px;
+}
+
+.message-list .message {
+  display: inline-block;
+  text-align: center;
+  width: 24%;
+  background-color: rgb(28, 0, 128);
+  color: #eee;
+}
+
+.gallery {
+  padding: 4px;
+}
+
+.gallery .gallery-item {
+  width: 175px;
+  border: 2px #eee inset;
+  padding: 2px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 3px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.gallery .gallery-item:hover {
+  background-color: #ccc;
+}
+
+.gallery .gallery-item .gallery-image {
+  min-height: 165px;
+  overflow: hidden;
+text-align: center;
+}
+
+.gallery .gallery-item .gallery-image img {
+  max-height: 125px;
+  max-width: 100%;
+  border: 1px black solid;
+  box-shadow: 2px 2px 2px 0px rgba(191,191,191,1);
+}
+
+.gallery .gallery-item a {
+  text-decoration: none;
+  color: #000;
+} */

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Space is Amazing</title>
+
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/node_modules/bootswatch/dist/cyborg/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header class="navbar navbar-dark navbar-expand-md" style="background-color: #222;">
+    <h4>
+      <a href="/" class="navbar-brand">
+        <i class="fa fa-rocket"></i> Space is Amazing</a>
+    </h4>
+    <button class="btn btn-outline-primary navbar-toggler" data-toggle="collapse" data-target="#theMenu">&#9776;</button>
+    <div class="navbar-collapse collapse justify-content-end" id="theMenu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="/" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="/gallery.html" class="nav-link">Gallery</a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">Planets</button>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Mercury</a>
+              <a href="#" class="dropdown-item">Venus</a>
+              <a href="#" class="dropdown-item">Earth</a>
+              <a href="#" class="dropdown-item">Mars</a>
+              <a href="#" class="dropdown-item">Jupiter</a>
+              <a href="#" class="dropdown-item">Saturn</a>
+              <a href="#" class="dropdown-item">Uranus</a>
+              <a href="#" class="dropdown-item">Neptune</a>
+              <a href="#" class="dropdown-item">Pluto</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <section id="main" class="col-md-9 col-lg-10">
+        <div class="alert alert-primary alert-dismissable fade show" data-dismiss="alert">
+          <button class="close">&times;</button>
+          <p>Please wait...</p>
+        </div>
+
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a href="#contact-pane" class="nav-link active" data-toggle="tab">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#address-pane" class="nav-link" data-toggle="tab">Address</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane card p-3 active fade show" id="contact-pane">
+            <h1>Contact Me</h1>
+            <p>Please use this form to contact me if you have any questions about the site:</p>
+            <div>
+              <form id="contact-form">
+                <div class="form-row">
+                  <div class="form-group col-md-4 col-sm-12">
+                    <label for="theName">
+                      Name:
+                    </label>
+                    <input type="text" class="form-control" id="theName" placeholder="Your Name" />
+                  </div>
+
+                  <div class="form-group col-md-4 col-sm-12">
+                    <label for="theEmail">
+                      Email:
+                    </label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text text-muted">@</span>
+                      </div>
+                      <input type="email" class="form-control" id="theEmail" placeholder="Your Email" />
+                    </div>
+                  </div>
+
+                  <div class="form-group col-md-4 col-sm-12">
+                    <label for="theSubject">Subject:</label>
+                    <select class="form-control" id="theSubject">
+                      <option selected>Telescope Question</option>
+                      <option selected>I Think I Found an Asteroid</option>
+                      <option selected>The Earth is Flat</option>
+                    </select>
+                  </div>
+
+                </div>
+
+                <div class="form-group">
+                  <label for="favorite">Favorite</label>
+                  <div>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-success">
+                        <input type="radio" /> Sun</label>
+                      <label class="btn btn-success">
+                        <input type="radio" /> Earth</label>
+                      <label class="btn btn-success">
+                        <input type="radio" /> Moon</label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="form-lanbel">
+                  <label for="theMessage">Message:</label>
+                  <textarea rows="4" class="form-control" id="theMessage"></textarea>
+                </div>
+
+                <div class="form-group">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="theRequires" />
+                    <label class="form-check-label" for="theRequires">Requires a response?</label>
+
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <input type="submit" value="Send" class="btn btn-success" />
+                  <!-- <a href="#theDisclaimer" class="btn btn-info" data-toggle="modal">Show Disclaimer</a> -->
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+          <div class="tab-pane card p-3 fade" id="address-pane">
+            <h5>Our Address</h5>
+            <address>
+              123 Main Street
+              <br/> Atlanta, GA 30303
+            </address>
+          </div>
+        </div>
+
+      </section>
+      <section id="sidebar" class="col-md-3 col-lg-2">
+        <h3>Welcome to My Site</h3>
+        <div class="form-group">
+          <div class="input-group input-group-sm">
+            <div class="input-group-prepend">
+              <span class="input-group-text text-success">?</span>
+            </div>
+            <input type="text" class="form-control">
+            <div class="input-group-append">
+              <button class="btn btn-primary">Search</button>
+            </div>
+          </div>
+        </div>
+        <h4>Favorite Images</h4>
+        <div class='images'>
+          <img src="/img/pluto.jpg" alt="Pluto" data-placement="right" title="<strong>Pluto</strong> Should be a Planet" data-html="true"
+            data-toggle="tooltip" class="img-fluid" />
+          <img src="/img/m-106.jpg" alt="Galaxy" title="Galaxy" data-toggle="tooltip" class="img-fluid" />
+          <img src="/img/crab-nebula.jpg" alt="Nebula" title="Nebula" data-toggle="tooltip" class="img-fluid" />
+          <img src="/img/mystic-mountain.jpg" alt="Nebula" data-placement="left" title="Nebula" data-toggle="tooltip" class="img-fluid"
+          />
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="text-center">&copy; 2017 Guitars are Fun</div>
+    </footer>
+  </div>
+
+</body>
+
+<div class="modal fade" id="theDisclaimer" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content bg-info text-light">
+      <div class="modal-header">
+        <h5>Disclaimer</h5>
+        <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>No guarantee that I'll respond to each email.</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" id="agree-button">Agree</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/site.js"></script>
+
+</html>

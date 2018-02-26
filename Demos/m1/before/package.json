@@ -1,0 +1,20 @@
+{
+  "name": "bsexample",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "~3.2.1",
+    "popper.js": "^1.12.5",
+    "font-awesome": "^4.7.0",
+    "reset.css": "^2.0.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
