@@ -69,7 +69,7 @@
           across the centuries white dwarf a still more glorious dawn awaits, emerged into consciousness laws of physics,
           Vangelis?
         </p>
-        <table>
+        <table class="table table-bordered table-striped">
           <thead>
             <tr>
               <th></th>
@@ -116,27 +116,33 @@
       <div class="col-md-3 col-lg-4 col-sm-2">
         <h3>Contact Form</h3>
         <form>
-          <label>Name:</label>
-          <input type="text" />
-          <br/>
-  
-          <label>Email:</label>
-          <input type="email" />
-          <br/>
-  
-          <label>Subject:</label>
-          <select>
-            <option selected>Telescope Question</option>
-            <option selected>I Think I Found an Asteroid</option>
-            <option selected>The Earth is Flat</option>
-          </select>
-          <br/>
-  
-          <label>Message:</label>
-          <textarea rows="4"></textarea>
-          <br/>
-  
-          <input type="submit" value="Send" class="right" />
+          <div class="form-group">
+            <label>Name:</label>
+            <input type="text" class="form-control" />
+          </div>
+
+
+          <div class="form-group">
+            <label>Email:</label>
+            <input type="email" class="form-control" />
+          </div>
+
+          <div class="form-group">
+            <label>Subject:</label>
+            <select class="form-control">
+              <option selected>Telescope Question</option>
+              <option selected>I Think I Found an Asteroid</option>
+              <option selected>The Earth is Flat</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Message:</label>
+            <textarea rows="4" class="form-control"></textarea>
+          </div>
+
+          <input type="submit" value="Send" class="btn btn-success btn-lg" />
+          <a href="/" class="btn btn-info btn-lg">Cancel</a>
         </form>
       </div>
     </section>

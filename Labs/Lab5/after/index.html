@@ -69,7 +69,7 @@
           across the centuries white dwarf a still more glorious dawn awaits, emerged into consciousness laws of physics,
           Vangelis?
         </p>
-        <table>
+        <table class="table table-bordered table-striped">
           <thead>
             <tr>
               <th></th>
@@ -112,41 +112,89 @@
             </td>
           </tr>
         </table>
+
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <img src="/img/pluto.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h3>Pluto</h3>
+                <p>Pluto is an awesome planet, no matter what Neil says.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/img/pluto.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h3>Pluto</h3>
+                <p>Pluto is an awesome planet, no matter what Neil says.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="/img/pluto.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h3>Pluto</h3>
+                <p>Pluto is an awesome planet, no matter what Neil says.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="col-md-3 col-lg-4 col-sm-2">
+      <div class=" col-md-3 col-lg-4 col-sm-2 ">
+        <div class="alert alert-info ">
+          <div class="close " data-dismiss="alert ">&times;</div>
+          Sending...
+        </div>
         <h3>Contact Form</h3>
         <form>
-          <label>Name:</label>
-          <input type="text" />
-          <br/>
-  
-          <label>Email:</label>
-          <input type="email" />
-          <br/>
-  
-          <label>Subject:</label>
-          <select>
-            <option selected>Telescope Question</option>
-            <option selected>I Think I Found an Asteroid</option>
-            <option selected>The Earth is Flat</option>
-          </select>
-          <br/>
-  
-          <label>Message:</label>
-          <textarea rows="4"></textarea>
-          <br/>
-  
-          <input type="submit" value="Send" class="right" />
+          <div class="form-group ">
+            <label>Name:</label>
+            <input type="text " class="form-control " />
+          </div>
+
+
+          <div class="form-group ">
+            <label>Email:</label>
+            <div class="input-group ">
+              <div class="input-group-pre ">
+                <span class="input-group-text ">@</span>
+              </div>
+              <input type="email " class="form-control " />
+            </div>
+          </div>
+
+          <div class="form-group ">
+            <label>Subject:</label>
+            <select class="form-control ">
+              <option selected>Telescope Question</option>
+              <option selected>I Think I Found an Asteroid</option>
+              <option selected>The Earth is Flat</option>
+            </select>
+          </div>
+
+          <div class="form-group ">
+            <label>Message:</label>
+            <textarea rows="4 " class="form-control "></textarea>
+          </div>
+
+          <div class="btn-group ">
+            <input type="submit " value="Send " class="btn btn-success btn-lg " />
+            <a href="/ " class="btn btn-info btn-lg ">Cancel</a>
+          </div>
         </form>
       </div>
     </section>
     <footer>
-      <div class="centered">&copy; 2017 Guitars are Fun</div>
+      <div class="centered ">&copy; 2017 Guitars are Fun</div>
     </footer>
   </div>
 </body>
 
-<script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
-<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/node_modules/jquery/dist/jquery.slim.min.js "></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js "></script>
 
 </html>
